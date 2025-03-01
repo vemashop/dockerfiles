@@ -1,6 +1,6 @@
 FROM almalinux:9
 ENV course="Devops with siva" \
-    trainer="siva" \
+    trainer="siva" 
     
 ARG USERNAME=sivakumar
 ENV username="${USERNAME}"
