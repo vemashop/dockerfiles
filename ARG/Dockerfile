@@ -1,5 +1,5 @@
 ARG version
-FROM almalinux:{$version:-9}
+FROM almalinux:${version:-9}
 # FROM almalinux:9
 ENV course="Devops with siva" \
     trainer="siva" 
