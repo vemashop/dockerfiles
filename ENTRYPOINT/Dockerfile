@@ -1,2 +1,3 @@
 FROM almalinux:9
-CMD ["ping", "google.com"]
+RUN ping google.com
+# CMD ["ping", "google.com"]
